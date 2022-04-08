@@ -1,0 +1,199 @@
+.order_steps .btn-toolbar.sw-toolbar.sw-toolbar-bottom.justify-content-end{
+	display: none;
+}
+.card .card-body {
+    padding: 1rem;
+}
+.notification_section .list-thumbnail{
+	height: 60px;
+}
+.notification_section .position-relative{
+	margin: auto;
+}
+.notification_section .list-item-heading{
+	margin-bottom: 3px;
+}
+.order_steps.sw-main>ul.step-anchor>li>a{
+	min-width: 80px;
+}
+.order_steps.sw-main>ul.step-anchor{
+	flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.order_steps.sw-main>ul.step-anchor>li>a, .sw-main>ul.step-anchor>li>a:focus, .sw-main>ul.step-anchor>li>a:hover{
+	color: #000 ;
+}
+.order_main{
+	height: fit-content;
+}
+.tab_child_order,
+.tab_child.active{
+	border: 1px solid #db9e30;
+}
+.tab_parent_order,
+.tab_parent{
+	border: 3px solid transparent;
+	cursor: pointer;
+}
+.tab_parent.active{
+	border: 3px solid #db9e30;
+}
+/* width */
+.select_country .card-body:hover::-webkit-scrollbar,
+.order_steps .card-header:hover::-webkit-scrollbar {
+	opacity: 1;
+}
+.select_country .card-body::-webkit-scrollbar,
+.order_steps .card-header::-webkit-scrollbar {
+	width: auto;
+	height: 4px;
+	opacity: 0;
+  }
+  
+  /* Track */
+  .select_country .card-body::-webkit-scrollbar-track,
+  .order_steps .card-header::-webkit-scrollbar-track {
+	background: transparent;
+  }
+  
+  /* Handle */
+  .select_country .card-body::-webkit-scrollbar-thumb,
+  .order_steps .card-header::-webkit-scrollbar-thumb {
+	background: #ddd;
+	border-radius: 10px;
+}
+  
+  /* Handle on hover */
+  .select_country .card-body::-webkit-scrollbar-thumb:hover,
+  .order_steps .card-header::-webkit-scrollbar-thumb:hover {
+	background: rgb(209, 209, 209);
+  }
+  .tab_parent_order,
+.create_meal_section .tab_parent{
+	border: 1px solid #ddd;
+    cursor: pointer;
+    box-shadow: none;
+}
+.create_meal_section .order_tab_parent.active,
+.create_meal_section .tab_parent.active{
+	border: 1px solid #db9e30;
+    color: #db9e30;
+}
+.create_meal_section .order_tab_parent img{
+	width: 70px;
+    height: 50px;
+}
+.create_meal_section .modal .dashboard-list-with-thumbs,
+.create_meal_section .dashboard-list-with-thumbs{
+	height: auto;
+}
+.create_meal_section .order_tab_parent{
+	background: #f3f3f3;
+	border: 1px solid #ddd;
+    padding: 5px 5px 0px 5px;
+	cursor: pointer;    
+	margin: 0px 5px;
+}
+  .select_country .select2-container--bootstrap {
+    min-width: 200px;
+    width: 200px !important;
+    max-width: 200px;
+}
+.list-thumbnail-letters.small {
+    width: 50px;
+    height: 50px;
+    font-size: 14px;
+}
+.tab_parent_order h6,
+.tab_parent h6{
+	font-size: 13px;
+}
+.font-size-15{
+	font-size:15px !important;
+}
+.list-thumbnail.img-set-height-width{
+	margin: 10px !important;
+}
+.main_section{
+	border: 1px solid #db9e30;
+}
+.box-shadow-none{
+	box-shadow: none;
+}
+.change_modal{
+	color: #db9e30;
+    font-size: 11px;
+    cursor: pointer;
+    margin: 0px;
+}
+.img-set-height-width{
+	height: 50px;
+	width: 50px;
+}
+.selected_date{
+	margin: auto;
+	padding-right: 10px;
+}
+#date{
+	display: none;
+}
+.modal .card.m-2,
+.create_meal_section .card.m-2{
+	height: fit-content;
+}
+.list-item-heading{
+	font-size: 12px;
+}
+.text-small{
+	font-size: 11px;
+}
+.modal .tab_child_order .my-2.desc,
+.create_meal_section .card .my-2.desc{
+	font-size: 9px;
+}
+.modal .tab_child_order .my-2,
+.create_meal_section .card .my-2{
+	font-size: 11px;
+	margin-bottom: 0px !important;
+    margin-top: 5px !important;
+}
+.modal .tab_child_order .glyph-icon.simple-icon-plus,
+.create_meal_section .glyph-icon.simple-icon-plus{
+	color: #db9e30;
+}
+.counter {
+    /* width: 150px; */
+    margin: auto;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* margin-top:30px; */
+}
+.counter input {
+    width: 50px !important;
+    border: 0 !important;
+    height:30px !important;
+    line-height: 30px !important;
+    font-size: 12px !important;
+    text-align: center !important;
+    appearance: none !important;
+    outline: 0 !important;
+    background-color: transparent !important;
+    border-color: #d1d1d4 !important;
+    color: #3a2a2f !important;
+    border: 1px solid #d1d1d4 !important;
+}
+.counter span {
+    height:30px;
+    display: block;
+    font-size: 20px;
+    padding: 0 10px;
+    cursor: pointer;
+    color: #0052cc;
+    user-select: none;
+    background-color: transparent;
+    border-color: #d1d1d4;
+    color: #999;
+    border: 1px solid #d1d1d4;
+}
